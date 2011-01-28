@@ -1,0 +1,21 @@
+=== AxialConnect4R ===	
+
+This will be an MLLP adapter for Ruby EventMachine
+
+=== Installing ===
+
+* Install Ruby
+* Install RubyGems
+
+[sudo] gem install eventmachine
+[sudo] gem install ruby-hl7
+
+=== Running ===
+
+>> cd axialconnect4r/mllp/transport
+>> ruby mllp_server.rb
+
+=== Known Issues ===
+
+* Ack is a Hack
+* Ruby HL7 Parsing
